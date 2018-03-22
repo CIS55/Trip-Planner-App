@@ -119,9 +119,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
         navigationButton.layer.cornerRadius = 8
         navigationButton.layer.borderWidth = 1
         
-
-
-
     }
     
     //animate background

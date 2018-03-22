@@ -9,12 +9,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         GMSServices.provideAPIKey("AIzaSyCd7c2v3p3Vz8IIofevM79jv2YDFiW-IbY")
         GMSPlacesClient.provideAPIKey("AIzaSyCd7c2v3p3Vz8IIofevM79jv2YDFiW-IbY")
+        
         
         //UINavigationBar.appearance().barTintColor = UIColor.darkGray
         //UINavigationBar.appearance().tintColor = UIColor.white
